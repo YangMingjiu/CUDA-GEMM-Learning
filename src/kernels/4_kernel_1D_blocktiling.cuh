@@ -19,6 +19,7 @@ __global__ void sgemm1DBlocktiling(int M, int N, int K, float alpha,
   // The slower configuration would share columns of A, but access into B would
   // be non-sequential. So the faster configuration has better spatial locality
   // and hence a greater L2 hit rate.
+    //? kernel3中为何不这样用？
   const uint cRow = blockIdx.y;
   const uint cCol = blockIdx.x;
 

@@ -14,3 +14,11 @@ simplest
 
 # benchmark results
 benchmark_results/
+#我的学习文件
+my_notes/
+my_experiments/
+my_kernels/
+*.ncu-rep
+profile_*/
+results.csv
+*.log
