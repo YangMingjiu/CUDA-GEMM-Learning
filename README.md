@@ -18,6 +18,15 @@
 - ✅ 手写关键kernel以确保理解
 - ✅ 性能可视化与对比分析
 
+## 🗺️ 学习路线
+
+本项目是 AI Infra 推理方向学习路线的一部分：
+
+| 项目 | 内容 | 方向 |
+|------|------|------|
+| **本项目（CUDA-GEMM-Learning）** | 6 种 GPU GEMM 优化技术，累计加速 68.91× | GPU Kernel 优化 |
+| [CUDA-FlashAttention-Learning](https://github.com/YangMingjiu/CUDA-FlashAttention-Learning) | FlashAttention Forward + Causal Mask 实现 | 算子优化 |
+| [nano-vllm-learning](https://github.com/YangMingjiu/nano-vllm-learning) | 推理引擎源码学习 + Benchmark | 推理系统 |
 ## 📊 性能测试结果
 
 **测试环境**：
